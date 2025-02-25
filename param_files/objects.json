@@ -1,18 +1,18 @@
 {
     "known_objects": {
-        "snack items": {"objects": ["Cracker box", "Gelatin box", "Pudding box"],"location": "Kitchen cabinet"},
-        "craft items": {"objects": ["Scissors", "Permanent marker", "Wood block"],"location": "Craft table"},
-        "can items": {"objects": ["Potted meat can", "Tuna fish can", "Master chef can", "Tomato soup can"],"location": "Kitchen counter"},
-        "kitchen items": {"objects": ["Mug", "Pitcher base", "Bowl"], "location": "Kitchen counter"},
-        "drink items": {"objects": ["Wine", "Cola", "Fanta", "Ice Tea", "Milk", "Water"], "location": "Kitchen shelf"}
+        "snack items": {"objects": ["cracker box", "gelatin box", "pudding box"],"location": "kitchen cabinet"},
+        "craft items": {"objects": ["scissors", "permanent marker", "wood block"],"location": "craft table"},
+        "can items": {"objects": ["potted meat can", "tuna fish can", "master chef can", "tomato soup can"],"location": "kitchen counter"},
+        "kitchen items": {"objects": ["mug", "Pitcher base", "bowl"], "location": "kitchen counter"},
+        "drink items": {"objects": ["wine", "cola", "fanta", "ice tea", "milk", "water"], "location": "kitchen shelf"}
     },
 
     "similar_objects": {
-        "kitchen items": {"objects":["plate", "spoon", "fork", "knife", "cup"], "location":"Kitchen counter"},
-        "craft items": {"objects":["power drill", "screwdriver", "clamp", "nails", "glue", "hammer"], "location":"Craft table"},
-        "snack items": {"objects":["pringles", "chips", "rice cake", "chocolate bar", "cookie", "pretzel"], "location":"Kitchen cabinet"},
-        "can items": {"objects":["salmon can", "chicken can", "lentils", "beans", "pasta sauce can", "coconut milk can"], "location":"Kitchen counter"},
-        "drink items": {"objects": ["lemonade", "water", "orange juice", "apple juice", "beer", "wodka"], "location": "Kitchen shelf"}
+        "kitchen items": {"objects":["plate", "spoon", "fork", "knife", "cup"], "location":"kitchen counter"},
+        "craft items": {"objects":["power drill", "screwdriver", "clamp", "nails", "glue", "hammer"], "location":"craft table"},
+        "snack items": {"objects":["pringles", "chips", "rice cake", "chocolate bar", "cookie", "pretzel"], "location":"kitchen cabinet"},
+        "can items": {"objects":["salmon can", "chicken can", "lentils", "beans", "pasta sauce can", "coconut milk can"], "location":"kitchen counter"},
+        "drink items": {"objects": ["lemonade", "water", "orange juice", "apple juice", "beer", "wodka"], "location": "kitchen shelf"}
     },
 
     "trash_objects":{
