@@ -19,7 +19,7 @@ To create a new dataset several files are important:
 After the setup of these files run the script `create_gt.py` to start the dataset creation.
 *Hint:* In this file you can choose the directory name and the path. 
 
-```python
+```bash
 python3 src/create_gt.py 
 ```
 
@@ -27,6 +27,6 @@ python3 src/create_gt.py
 The script `gt_reader.py` is used to read the dataset.
 Adjust the dataset path in the script.
 
-```python
+```bash
 python3 src/gt_reader.py
 ```
