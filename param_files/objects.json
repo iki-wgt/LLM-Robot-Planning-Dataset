@@ -1,0 +1,38 @@
+{
+    "known_objects": {
+        "snack items": {"objects": ["Cracker box", "Gelatin box", "Pudding box"],"location": "Kitchen cabinet"},
+        "craft items": {"objects": ["Scissors", "Permanent marker", "Wood block"],"location": "Craft table"},
+        "can items": {"objects": ["Potted meat can", "Tuna fish can", "Master chef can", "Tomato soup can"],"location": "Kitchen counter"},
+        "kitchen items": {"objects": ["Mug", "Pitcher base", "Bowl"], "location": "Kitchen counter"},
+        "drink items": {"objects": ["Wine", "Cola", "Fanta", "Ice Tea", "Milk", "Water"], "location": "Kitchen shelf"}
+    },
+
+    "similar_objects": {
+        "kitchen items": {"objects":["plate", "spoon", "fork", "knife", "cup"], "location":"Kitchen counter"},
+        "craft items": {"objects":["power drill", "screwdriver", "clamp", "nails", "glue", "hammer"], "location":"Craft table"},
+        "snack items": {"objects":["pringles", "chips", "rice cake", "chocolate bar", "cookie", "pretzel"], "location":"Kitchen cabinet"},
+        "can items": {"objects":["salmon can", "chicken can", "lentils", "beans", "pasta sauce can", "coconut milk can"], "location":"Kitchen counter"},
+        "drink items": {"objects": ["lemonade", "water", "orange juice", "apple juice", "beer", "wodka"], "location": "Kitchen shelf"}
+    },
+
+    "trash_objects":{
+        "trash items": {"objects":["banana skin", "apple skin", "orange skin", "carrot peel", "cucumber peel", "eggshells", "bones"], "location":"trash bin"}
+    },
+
+    "dirty_objects":{
+        "dirty items": {"objects":["stained plate", "dirty mug", "used bowl", "greasy pans", "dirty plate", "smudged fork", "used knife", "dirty spoon", "smudged spoon"], "location":"kitchen sink"}
+    },
+
+    "recycle_objects":{
+        "recycle items": {"objects":["empty water bottle", "empty orange juice bottle", "empty yoghurt tub", "empty lemonade bottle", "empty butter tub", "empty milk jug", "empty shampoo bottle", "empty juice bottle"], "location":"recycle bin"}
+    },
+
+    "empty_glass_objects":{
+        "empty glass items": {"objects":["empty wine bottle", "empty beer bottle", "empty olive oil bottle", "empty liquor bottle", "empty joghurt glass"], "location":"white plastic box"}
+    },
+    
+    "unknown_location_objects":{
+        "unknown location items": {"objects":["candle", "flowers", "remote control", "dice", "magazine", "newspaper", "board game"], "location":"living room dresser"}
+    }
+
+}

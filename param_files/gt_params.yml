@@ -1,0 +1,37 @@
+gt_params:
+  objects_json_file: "../param_files/objects.json"
+  surfaces: ["couch table", "kitchen desk", "desk", "coffee table", "side table", "nightstand", "table"]  # list of surfaces
+
+  num_sentences: 10 # how many sentences will be created
+  objects_per_sentence: 5 # objects per sentence
+
+  rules_equally_distributed: true # ignores all the "rule per sentence" entries and distributes the applied rules equally.
+  
+  rules:
+    known_objects:
+      apply_rule: true
+      rule_per_sentence: 3 # how often should the rule be applied per sentence (sum not more then the objects per sentence) 
+
+    similar_objects:
+      apply_rule: true
+      rule_per_sentence: 2 # how often should the rule be applied per sentence (sum not more then the objects per sentence) 
+
+    trash_objects:
+      apply_rule: true
+      rule_per_sentence: 0 # how often should the rule be applied per sentence (sum not more then the objects per sentence) 
+
+    dirty_objects:
+      apply_rule: true
+      rule_per_sentence: 0 # how often should the rule be applied per sentence (sum not more then the objects per sentence) 
+    
+    recycle_objects:
+      apply_rule: true
+      rule_per_sentence: 0 # how often should the rule be applied per sentence (sum not more then the objects per sentence)
+
+    empty_glass_objects:
+      apply_rule: true
+      rule_per_sentence: 0 # how often should the rule be applied per sentence (sum not more then the objects per sentence)
+
+    unknown_location_objects:
+      apply_rule: true
+      rule_per_sentence: 0 # how often should the rule be applied per sentence (sum not more then the objects per sentence)
