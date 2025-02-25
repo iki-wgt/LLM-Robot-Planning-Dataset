@@ -67,7 +67,7 @@ class GTCreation:
 
 if __name__ == "__main__":
     gt_creation = GTCreation(directory_name="gt_dataset", 
-                             gt_path='../gt',
-                             objects_json_path = '../param_files/objects.json')
-    gt_creation.create_gt("../param_files/gt_params.yml")
+                             gt_path='gt',
+                             objects_json_path = 'param_files/objects.json')
+    gt_creation.create_gt("param_files/gt_params.yml")
     

@@ -1,5 +1,5 @@
 gt_params:
-  objects_json_file: "../param_files/objects.json"
+  objects_json_file: "param_files/objects.json"
   surfaces: ["couch table", "kitchen desk", "desk", "coffee table", "side table", "nightstand", "table"]  # list of surfaces
 
   num_sentences: 10 # how many sentences will be created

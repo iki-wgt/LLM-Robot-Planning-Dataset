@@ -33,20 +33,19 @@ class GTReader:
     def get_gt_sentence_dict(self) -> dict:
         return self.__gt_sentence_dict
 
-    def get_sentence_by_id(self, id):
+    def get_sentence_by_id(self, id) -> dict:
         return self.__sentences[f"{id}"]
 
-    def get_gt_by_id(self, id):
+    def get_gt_by_id(self, id) -> dict:
         return self.__gt_sentence_dict[f"{id}"]
 
 def main():
-    gt_reader = GTReader("../../data/gt/test_run1")
+    gt_reader = GTReader("gt/gt_dataset")
     for id in gt_reader.get_sentence_ids():
         print(f"---------- Sentence from id {id}------------ ")
         print(gt_reader.get_sentence_by_id(id))
         print("--------------------")
         print(gt_reader.get_gt_by_id(id))
-
 
 if __name__ == "__main__":
     main()

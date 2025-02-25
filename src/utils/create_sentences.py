@@ -2,7 +2,6 @@ import random
 import copy
 import math
 
-# from gt_rules import GtRules, Rule
 from utils.gt_rules import GtRules
 
 class Connectors:
@@ -115,8 +114,6 @@ class SentenceGeneration:
             objects.extend(random.sample(sub_rule_objects, 1))
         return objects
     
-    # def generate_sentences(self, all_objects, surfaces, objects_per_sentence, num_other_locations, possible_other_locations, 
-    #                        num_similar_objects, similar_objects, num_sentences=50):
     def generate_sentences(self, param_file):
         
         gt_rules = GtRules(param_file)
@@ -147,8 +144,6 @@ class SentenceGeneration:
         sentence_structures += structure_ids[:left]  
 
         random.shuffle(sentence_structures)
-        # for _ in range(num_sentences):
-        print(rule_names_list)
 
         sentences = {}
         sentence_counter = 0
@@ -300,23 +295,3 @@ class SentenceGeneration:
                 objects_text += f" {random.choice(self.connectors.get_objects_connectors())} a {copied_objects[current_pos]}"
 
         return objects_text, copied_objects
-
-# Example usage
-if __name__ == "__main__":
-
-    surfaces = ["couch table", "kitchen desk", "desk", "coffee table", "side table", "nightstand", "table"]  # List of surfaces
-
-    num_other_locations = 0
-    possible_other_locations = ["table", "tv table", "kichen sink", "dish washer", "shelf", "desk"]
-    
-    num_similar_objects = 2
-    similar_objects = ["plate", "spoon", "fork", "knife", "cup", "glass",
-                       "power drill", "screwdriver", "clamp", "nails", "glue", "hammer"
-                       "pringles", "chips can", "rice cake", "chocolate bar", "cookie", "pretzel",
-                       "salmon can", "chicken can", "lentils", "beans", "pasta sauce can", "coconut milk can"]
-
-    sg = SentenceGeneration()
-    sentences = sg.generate_sentences("/data_private/ss24_hafner_llms_for_robot_behaviors/src/LLAMA_RAG/src/data/params/gt_params.yml")
-    
-    for key, value in sentences.items():
-        print(f"{key}. {value}")

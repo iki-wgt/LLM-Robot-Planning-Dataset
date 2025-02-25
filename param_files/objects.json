@@ -8,11 +8,11 @@
     },
 
     "similar_objects": {
-        "kitchen items": {"objects":["plate", "spoon", "fork", "knife", "cup"], "location":"kitchen counter"},
-        "craft items": {"objects":["power drill", "screwdriver", "clamp", "nails", "glue", "hammer"], "location":"craft table"},
         "snack items": {"objects":["pringles", "chips", "rice cake", "chocolate bar", "cookie", "pretzel"], "location":"kitchen cabinet"},
+        "craft items": {"objects":["power drill", "screwdriver", "clamp", "nails", "glue", "hammer"], "location":"craft table"},
         "can items": {"objects":["salmon can", "chicken can", "lentils", "beans", "pasta sauce can", "coconut milk can"], "location":"kitchen counter"},
-        "drink items": {"objects": ["lemonade", "water", "orange juice", "apple juice", "beer", "wodka"], "location": "kitchen shelf"}
+        "kitchen items": {"objects":["plate", "spoon", "fork", "knife", "cup"], "location":"kitchen counter"},
+        "drink items": {"objects": ["lemonade", "water", "orange juice", "apple juice", "beer", "vodka"], "location": "kitchen shelf"}
     },
 
     "trash_objects":{
@@ -28,7 +28,7 @@
     },
 
     "empty_glass_objects":{
-        "empty glass items": {"objects":["empty wine bottle", "empty beer bottle", "empty olive oil bottle", "empty liquor bottle", "empty joghurt glass"], "location":"white plastic box"}
+        "empty glass items": {"objects":["empty wine bottle", "empty beer bottle", "empty olive oil bottle", "empty liquor bottle", "empty yoghurt glass"], "location":"white plastic box"}
     },
     
     "unknown_location_objects":{
