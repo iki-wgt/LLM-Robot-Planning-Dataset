@@ -10,7 +10,7 @@ The dataset is structured as follows:
 1. Each sentence has an associated JSON file containing the ground truth movements.
 2. The `sentence.json` file contains all sentences along with additional information about the sentences.
 
-## Create new dataset
+## Create new Dataset
 To create a new dataset several files are important: 
 
 1. `objects.json`: This JSON file describes the rules, for each rule the corresponding objects and the location. 
